@@ -1,0 +1,12 @@
+C:\Users\Nemanja\Desktop\ASP_Project\ASP_Project.Domain\bin\Debug\net5.0\ASP_Project.Domain.deps.json
+C:\Users\Nemanja\Desktop\ASP_Project\ASP_Project.Domain\bin\Debug\net5.0\ASP_Project.Domain.dll
+C:\Users\Nemanja\Desktop\ASP_Project\ASP_Project.Domain\bin\Debug\net5.0\ASP_Project.Domain.pdb
+C:\Users\Nemanja\Desktop\ASP_Project\ASP_Project.Domain\obj\Debug\net5.0\ASP_Project.Domain.csproj.AssemblyReference.cache
+C:\Users\Nemanja\Desktop\ASP_Project\ASP_Project.Domain\obj\Debug\net5.0\ASP_Project.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nemanja\Desktop\ASP_Project\ASP_Project.Domain\obj\Debug\net5.0\ASP_Project.Domain.AssemblyInfoInputs.cache
+C:\Users\Nemanja\Desktop\ASP_Project\ASP_Project.Domain\obj\Debug\net5.0\ASP_Project.Domain.AssemblyInfo.cs
+C:\Users\Nemanja\Desktop\ASP_Project\ASP_Project.Domain\obj\Debug\net5.0\ASP_Project.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Nemanja\Desktop\ASP_Project\ASP_Project.Domain\obj\Debug\net5.0\ASP_Project.Domain.dll
+C:\Users\Nemanja\Desktop\ASP_Project\ASP_Project.Domain\obj\Debug\net5.0\refint\ASP_Project.Domain.dll
+C:\Users\Nemanja\Desktop\ASP_Project\ASP_Project.Domain\obj\Debug\net5.0\ASP_Project.Domain.pdb
+C:\Users\Nemanja\Desktop\ASP_Project\ASP_Project.Domain\obj\Debug\net5.0\ref\ASP_Project.Domain.dll

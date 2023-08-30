@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ASP_Project.Api</name>
+    </assembly>
+    <members>
+        <member name="M:ASP_Project.Api.Controllers.CategoriesController.Post(ASP_Project.ApplicationLayer.UseCases.DTO.CreateCategoryDto,ASP_Project.ApplicationLayer.UseCases.Commands.ICreateCategoryCommand)">
+             <summary>
+             Creates new category.
+             </summary>
+             <param name="dto"></param>
+             <param name="command"></param>
+             <returns></returns>
+             /// <remarks>
+             Sample request:
+            
+                 POST /api/Categories
+                 {
+                    "name": "New Category",
+                    "parentCategory": null
+                 }
+            
+             </remarks>
+             <response code="201">Successfully created.</response>
+             <response code="422">Validation failure.</response>
+             <response code="500">Unexpected server error.</response>
+        </member>
+    </members>
+</doc>

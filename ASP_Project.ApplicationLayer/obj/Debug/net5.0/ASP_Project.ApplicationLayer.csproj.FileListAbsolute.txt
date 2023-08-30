@@ -1,0 +1,17 @@
+C:\Users\Nemanja\Desktop\ASP_Project\ASP_Project.ApplicationLayer\bin\Debug\net5.0\ASP_Project.ApplicationLayer.deps.json
+C:\Users\Nemanja\Desktop\ASP_Project\ASP_Project.ApplicationLayer\bin\Debug\net5.0\ASP_Project.ApplicationLayer.dll
+C:\Users\Nemanja\Desktop\ASP_Project\ASP_Project.ApplicationLayer\bin\Debug\net5.0\ASP_Project.ApplicationLayer.pdb
+C:\Users\Nemanja\Desktop\ASP_Project\ASP_Project.ApplicationLayer\bin\Debug\net5.0\ASP_Project.DataAccess.dll
+C:\Users\Nemanja\Desktop\ASP_Project\ASP_Project.ApplicationLayer\bin\Debug\net5.0\ASP_Project.Domain.dll
+C:\Users\Nemanja\Desktop\ASP_Project\ASP_Project.ApplicationLayer\bin\Debug\net5.0\ASP_Project.DataAccess.pdb
+C:\Users\Nemanja\Desktop\ASP_Project\ASP_Project.ApplicationLayer\bin\Debug\net5.0\ASP_Project.Domain.pdb
+C:\Users\Nemanja\Desktop\ASP_Project\ASP_Project.ApplicationLayer\obj\Debug\net5.0\ASP_Project.ApplicationLayer.csproj.AssemblyReference.cache
+C:\Users\Nemanja\Desktop\ASP_Project\ASP_Project.ApplicationLayer\obj\Debug\net5.0\ASP_Project.ApplicationLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nemanja\Desktop\ASP_Project\ASP_Project.ApplicationLayer\obj\Debug\net5.0\ASP_Project.ApplicationLayer.AssemblyInfoInputs.cache
+C:\Users\Nemanja\Desktop\ASP_Project\ASP_Project.ApplicationLayer\obj\Debug\net5.0\ASP_Project.ApplicationLayer.AssemblyInfo.cs
+C:\Users\Nemanja\Desktop\ASP_Project\ASP_Project.ApplicationLayer\obj\Debug\net5.0\ASP_Project.ApplicationLayer.csproj.CoreCompileInputs.cache
+C:\Users\Nemanja\Desktop\ASP_Project\ASP_Project.ApplicationLayer\obj\Debug\net5.0\ASP_Project.ApplicationLayer.csproj.CopyComplete
+C:\Users\Nemanja\Desktop\ASP_Project\ASP_Project.ApplicationLayer\obj\Debug\net5.0\ASP_Project.ApplicationLayer.dll
+C:\Users\Nemanja\Desktop\ASP_Project\ASP_Project.ApplicationLayer\obj\Debug\net5.0\refint\ASP_Project.ApplicationLayer.dll
+C:\Users\Nemanja\Desktop\ASP_Project\ASP_Project.ApplicationLayer\obj\Debug\net5.0\ASP_Project.ApplicationLayer.pdb
+C:\Users\Nemanja\Desktop\ASP_Project\ASP_Project.ApplicationLayer\obj\Debug\net5.0\ref\ASP_Project.ApplicationLayer.dll

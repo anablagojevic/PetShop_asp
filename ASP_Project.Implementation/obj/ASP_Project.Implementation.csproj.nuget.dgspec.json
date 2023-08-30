@@ -1,0 +1,305 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Nemanja\\Desktop\\ASP_Project\\ASP_Project.Implementation\\ASP_Project.Implementation.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Nemanja\\Desktop\\ASP_Project\\ASP_Project.ApplicationLayer\\ASP_Project.ApplicationLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nemanja\\Desktop\\ASP_Project\\ASP_Project.ApplicationLayer\\ASP_Project.ApplicationLayer.csproj",
+        "projectName": "ASP_Project.ApplicationLayer",
+        "projectPath": "C:\\Users\\Nemanja\\Desktop\\ASP_Project\\ASP_Project.ApplicationLayer\\ASP_Project.ApplicationLayer.csproj",
+        "packagesPath": "C:\\Users\\Nemanja\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nemanja\\Desktop\\ASP_Project\\ASP_Project.ApplicationLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nemanja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Nemanja\\Desktop\\ASP_Project\\ASP_Project.DataAccess\\ASP_Project.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Nemanja\\Desktop\\ASP_Project\\ASP_Project.DataAccess\\ASP_Project.DataAccess.csproj"
+              },
+              "C:\\Users\\Nemanja\\Desktop\\ASP_Project\\ASP_Project.Domain\\ASP_Project.Domain.csproj": {
+                "projectPath": "C:\\Users\\Nemanja\\Desktop\\ASP_Project\\ASP_Project.Domain\\ASP_Project.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.316\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Nemanja\\Desktop\\ASP_Project\\ASP_Project.DataAccess\\ASP_Project.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nemanja\\Desktop\\ASP_Project\\ASP_Project.DataAccess\\ASP_Project.DataAccess.csproj",
+        "projectName": "ASP_Project.DataAccess",
+        "projectPath": "C:\\Users\\Nemanja\\Desktop\\ASP_Project\\ASP_Project.DataAccess\\ASP_Project.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Nemanja\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nemanja\\Desktop\\ASP_Project\\ASP_Project.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nemanja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Nemanja\\Desktop\\ASP_Project\\ASP_Project.Domain\\ASP_Project.Domain.csproj": {
+                "projectPath": "C:\\Users\\Nemanja\\Desktop\\ASP_Project\\ASP_Project.Domain\\ASP_Project.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.316\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Nemanja\\Desktop\\ASP_Project\\ASP_Project.Domain\\ASP_Project.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nemanja\\Desktop\\ASP_Project\\ASP_Project.Domain\\ASP_Project.Domain.csproj",
+        "projectName": "ASP_Project.Domain",
+        "projectPath": "C:\\Users\\Nemanja\\Desktop\\ASP_Project\\ASP_Project.Domain\\ASP_Project.Domain.csproj",
+        "packagesPath": "C:\\Users\\Nemanja\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nemanja\\Desktop\\ASP_Project\\ASP_Project.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nemanja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.316\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Nemanja\\Desktop\\ASP_Project\\ASP_Project.Implementation\\ASP_Project.Implementation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nemanja\\Desktop\\ASP_Project\\ASP_Project.Implementation\\ASP_Project.Implementation.csproj",
+        "projectName": "ASP_Project.Implementation",
+        "projectPath": "C:\\Users\\Nemanja\\Desktop\\ASP_Project\\ASP_Project.Implementation\\ASP_Project.Implementation.csproj",
+        "packagesPath": "C:\\Users\\Nemanja\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nemanja\\Desktop\\ASP_Project\\ASP_Project.Implementation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nemanja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Nemanja\\Desktop\\ASP_Project\\ASP_Project.ApplicationLayer\\ASP_Project.ApplicationLayer.csproj": {
+                "projectPath": "C:\\Users\\Nemanja\\Desktop\\ASP_Project\\ASP_Project.ApplicationLayer\\ASP_Project.ApplicationLayer.csproj"
+              },
+              "C:\\Users\\Nemanja\\Desktop\\ASP_Project\\ASP_Project.DataAccess\\ASP_Project.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Nemanja\\Desktop\\ASP_Project\\ASP_Project.DataAccess\\ASP_Project.DataAccess.csproj"
+              },
+              "C:\\Users\\Nemanja\\Desktop\\ASP_Project\\ASP_Project.Domain\\ASP_Project.Domain.csproj": {
+                "projectPath": "C:\\Users\\Nemanja\\Desktop\\ASP_Project\\ASP_Project.Domain\\ASP_Project.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Portable.BouncyCastle": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.316\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
