@@ -80,6 +80,7 @@ namespace ASP_Project.Api.Extensions
             services.AddTransient<ICreateCartCommand, EfCreateCartCommand>();
             services.AddTransient<IUpdateCartCommand, EfUpdateCartCommand>();
             services.AddTransient<IDeleteCartCommand, EfDeleteCartCommand>();
+            services.AddTransient<IOrderCartCommand, EfOrderCartCommand>();
             services.AddTransient<ICreateCommentCommand, EfCreateCommentCommand>();
             services.AddTransient<IUpdateCommentCommand, EfUpdateCommentCommand>();
             services.AddTransient<IDeleteCommentCommand, EfDeleteCommentCommand>();
