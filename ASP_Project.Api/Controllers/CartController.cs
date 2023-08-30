@@ -1,4 +1,4 @@
-﻿using ASP_Project.ApplicationLayer.UseCases.Commands;
+using ASP_Project.ApplicationLayer.UseCases.Commands;
 using ASP_Project.ApplicationLayer.UseCases.DTO;
 using ASP_Project.Implementation;
 using Microsoft.AspNetCore.Authorization;
@@ -33,6 +33,13 @@ namespace ASP_Project.Api.Controllers
                 ProductId = dto.ProductId
             };
             _handler.HandleCommand(command, data);
+            return NoContent();
+        }
+
+        [HttpPatch("{id}")]
+        public IActionResult Order(int id, [FromServices] IOrderCartCommand command)
+        {
+            _handler.HandleCommand(command, id);
             return NoContent();
         }
 
