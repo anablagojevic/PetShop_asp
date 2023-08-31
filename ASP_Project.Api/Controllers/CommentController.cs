@@ -19,6 +19,12 @@ namespace ASP_Project.Api.Controllers
             _handler = handler;
         }
 
+        /// <summary>
+        /// Creates comment for product.
+        /// </summary>
+        /// <response code="201">Successfully created.</response>
+        /// <response code="422">Validation failure.</response>
+        /// <response code="500">Unexpected server error.</response>
         [HttpPost]
         public IActionResult Post([FromBody] CommentDto dto, [FromServices] ICreateCommentCommand command)
         {
@@ -26,6 +32,12 @@ namespace ASP_Project.Api.Controllers
             return StatusCode(201);
         }
 
+        /// <summary>
+        /// Updates comment for product.
+        /// </summary>
+        /// <response code="204">No content.</response>
+        /// <response code="422">Validation failure.</response>
+        /// <response code="500">Unexpected server error.</response>
         [HttpPut("{id}")]
         public IActionResult Put(int id, [FromBody] UpdateCommentDto request, [FromServices] IUpdateCommentCommand command)
         {
@@ -39,6 +51,12 @@ namespace ASP_Project.Api.Controllers
             return NoContent();
         }
 
+        /// <summary>
+        /// Deletes comment for product.
+        /// </summary>
+        /// <response code="204">No content.</response>
+        /// <response code="422">Validation failure.</response>
+        /// <response code="500">Unexpected server error.</response>
         [HttpDelete("{id}")]
         public IActionResult Delete(int id, [FromServices] IDeleteCommentCommand command)
         {
