@@ -22,6 +22,12 @@ namespace ASP_Project.Api.Controllers
             _handler = handler;
         }
 
+        /// <summary>
+        /// Gets list of category names.
+        /// </summary>
+        /// <response code="200">Ok.</response>
+        /// <response code="422">Validation failure.</response>
+        /// <response code="500">Unexpected server error.</response>
         [HttpGet]
         public IActionResult Get([FromQuery] BasePageSearch search, [FromServices] IGetCategoriesQuery query)
         {
@@ -56,6 +62,12 @@ namespace ASP_Project.Api.Controllers
             return StatusCode(201);
         }
 
+        /// <summary>
+        /// Updates category names.
+        /// </summary>
+        /// <response code="200">Ok.</response>
+        /// <response code="422">Validation failure.</response>
+        /// <response code="500">Unexpected server error.</response>
         [HttpPut("{id}")]
         public IActionResult Put(int id,[FromBody] CreateCategoryDto request, [FromServices] IUpdateCategoryCommand command)
         {
@@ -69,6 +81,12 @@ namespace ASP_Project.Api.Controllers
             return NoContent();
         }
 
+        /// <summary>
+        /// Deletes category.
+        /// </summary>
+        /// <response code="200">Ok.</response>
+        /// <response code="422">Validation failure.</response>
+        /// <response code="500">Unexpected server error.</response>
         [HttpDelete("{id}")]
         public IActionResult Delete(int id, [FromServices] IDeleteCategoryCommand command)
         {
