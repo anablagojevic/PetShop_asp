@@ -18,6 +18,12 @@ namespace ASP_Project.Api.Controllers
             _handler = handler;
         }
 
+        /// <summary>
+        /// Creates cart for users.
+        /// </summary>
+        /// <response code="201">Successfully created.</response>
+        /// <response code="422">Validation failure.</response>
+        /// <response code="500">Unexpected server error.</response>
         [HttpPost]
         public IActionResult Post([FromBody] CartDto dto, [FromServices] ICreateCartCommand command)
         {
@@ -25,6 +31,12 @@ namespace ASP_Project.Api.Controllers
             return StatusCode(201);
         }
 
+        /// <summary>
+        /// Updates cart, removes one product from cart.
+        /// </summary>
+        /// <response code="204">No Content.</response>
+        /// <response code="422">Validation failure.</response>
+        /// <response code="500">Unexpected server error.</response>
         [HttpPut("{id}")]
         public IActionResult Put(int id, [FromBody] CartDto dto, [FromServices] IUpdateCartCommand command)
         {
@@ -36,6 +48,12 @@ namespace ASP_Project.Api.Controllers
             return NoContent();
         }
 
+        /// <summary>
+        /// Creates an order for users.
+        /// </summary>
+        /// <response code="204">No Content.</response>
+        /// <response code="422">Validation failure.</response>
+        /// <response code="500">Unexpected server error.</response>
         [HttpPatch("{id}")]
         public IActionResult Order(int id, [FromServices] IOrderCartCommand command)
         {
@@ -43,6 +61,12 @@ namespace ASP_Project.Api.Controllers
             return NoContent();
         }
 
+        /// <summary>
+        /// Deletes the entire cart.
+        /// </summary>
+        /// <response code="204">No Content.</response>
+        /// <response code="422">Validation failure.</response>
+        /// <response code="500">Unexpected server error.</response>
         [HttpDelete("{id}")]
         public IActionResult Delete(int id, [FromServices] IDeleteCartCommand command)
         {
