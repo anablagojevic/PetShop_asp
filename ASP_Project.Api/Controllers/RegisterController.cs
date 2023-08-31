@@ -24,6 +24,12 @@ namespace ASP_Project.Api.Controllers
             _command = command;
         }
 
+        /// <summary>
+        /// Registers user.
+        /// </summary>
+        /// <response code="201">Successfully created.</response>
+        /// <response code="422">Validation failure.</response>
+        /// <response code="500">Unexpected server error.</response>
         [HttpPost]
         [AllowAnonymous]
         public IActionResult Post([FromBody] RegisterDto dto)
