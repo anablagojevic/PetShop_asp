@@ -22,12 +22,24 @@ namespace ASP_Project.Api.Controllers
             _handler = handler;
         }
 
+        /// <summary>
+        /// Gets animal names.
+        /// </summary>
+        /// <response code="200">Ok.</response>
+        /// <response code="422">Validation failure.</response>
+        /// <response code="500">Unexpected server error.</response>
         [HttpGet]
         public IActionResult Get([FromQuery] BaseSearch search, [FromServices] IGetAnimalsQuery query)
         {
             return Ok(_handler.HandleQuery(query, search));
         }
 
+        /// <summary>
+        /// Creates animal names.
+        /// </summary>
+        /// <response code="201">Successfully created.</response>
+        /// <response code="422">Validation failure.</response>
+        /// <response code="500">Unexpected server error.</response>
         [HttpPost]
         public IActionResult Post([FromBody] CreateAnimalDto dto, [FromServices] ICreateAnimalCommand command)
         {
@@ -35,6 +47,12 @@ namespace ASP_Project.Api.Controllers
             return StatusCode(201);
         }
 
+        /// <summary>
+        /// Deletes animal names.
+        /// </summary>
+        /// <response code="204">No Content.</response>
+        /// <response code="422">Validation failure.</response>
+        /// <response code="500">Unexpected server error.</response>
         [HttpDelete("{id}")]
         public IActionResult Delete(int id, [FromServices] IDeleteAnimalCommand command)
         {
@@ -42,6 +60,12 @@ namespace ASP_Project.Api.Controllers
             return NoContent();
         }
 
+        /// <summary>
+        /// Updates animal names.
+        /// </summary>
+        /// <response code="204">No Content.</response>
+        /// <response code="422">Validation failure.</response>
+        /// <response code="500">Unexpected server error.</response>
         [HttpPut("{id}")]
         public IActionResult Put(int id, [FromBody] CreateAnimalDto request, [FromServices] IUpdateAnimalCommand command)
         {
