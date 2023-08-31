@@ -18,6 +18,12 @@ namespace ASP_Project.Api.Controllers
             _handler = handler;
         }
 
+        /// <summary>
+        /// Adds new specification value.
+        /// </summary>
+        /// <response code="204">No COntent.</response>
+        /// <response code="422">Validation failure.</response>
+        /// <response code="500">Unexpected server error.</response>
         [HttpPost]
         public IActionResult Post([FromBody] NewSpecificationValueDto dto, [FromServices] IInsertNewSpecificationValueCommand command)
         {
