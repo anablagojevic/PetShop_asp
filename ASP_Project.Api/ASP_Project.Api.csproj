@@ -16,7 +16,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ASP_Project.ApplicationLayer\ASP_Project.ApplicationLayer.csproj" />
-    <ProjectReference Include="..\ASP_Project.Application\ASP_Project.Application.csproj" />
     <ProjectReference Include="..\ASP_Project.DataAccess\ASP_Project.DataAccess.csproj" />
     <ProjectReference Include="..\ASP_Project.Domain\ASP_Project.Domain.csproj" />
     <ProjectReference Include="..\ASP_Project.Implementation\ASP_Project.Implementation.csproj" />
