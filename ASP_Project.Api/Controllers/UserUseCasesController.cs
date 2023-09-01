@@ -19,6 +19,12 @@ namespace ASP_Project.Api.Controllers
             _handler = handler;
         }
 
+        /// <summary>
+        /// Updates user use cases.
+        /// </summary>
+        /// <response code="201">No Content.</response>
+        /// <response code="422">Validation failure.</response>
+        /// <response code="500">Unexpected server error.</response>
         [HttpPut]
         public IActionResult Put(
             [FromBody] UpdateUserUseCasesDto request,
