@@ -16,6 +16,13 @@ namespace ASP_Project.Api.Controllers
         {
             _manager = manager;
         }
+
+        /// <summary>
+        /// Creates a token.
+        /// </summary>
+        /// <response code="200">Ok.</response>
+        /// <response code="422">Validation failure.</response>
+        /// <response code="500">Unexpected server error.</response>
         [HttpPost]
         [AllowAnonymous]
         public IActionResult Post([FromBody] TokenRequest request)
