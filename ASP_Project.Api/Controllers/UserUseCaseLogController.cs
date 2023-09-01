@@ -19,7 +19,13 @@ namespace ASP_Project.Api.Controllers
         {
             _handler = handler;
         }
-        
+
+        /// <summary>
+        /// Searches use case logs.
+        /// </summary>
+        /// <response code="200">Ok.</response>
+        /// <response code="422">Validation failure.</response>
+        /// <response code="500">Unexpected server error.</response>
         // GET: api/<UserUseCaseLogController>
         [HttpGet]
         public IActionResult Get([FromQuery] UserUseCaseLogSearch search, [FromServices] IGetUserUseCaseLog query)
