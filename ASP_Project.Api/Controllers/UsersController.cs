@@ -18,12 +18,24 @@ namespace ASP_Project.Api.Controllers
             _handler = handler;
         }
 
+        /// <summary>
+        /// Searches currently logged in user.
+        /// </summary>
+        /// <response code="200">Ok.</response>
+        /// <response code="422">Validation failure.</response>
+        /// <response code="500">Unexpected server error.</response>
         [HttpGet]
         public IActionResult Get([FromServices] IApplicationUser user)
         {
             return Ok(user);
         }
 
+        /// <summary>
+        /// Generates token.
+        /// </summary>
+        /// <response code="200">Ok.</response>
+        /// <response code="422">Validation failure.</response>
+        /// <response code="500">Unexpected server error.</response>
         [HttpPost]
         [AllowAnonymous]
         public IActionResult Post([FromServices] IApplicationUser user)
@@ -31,6 +43,12 @@ namespace ASP_Project.Api.Controllers
             return Ok(user);
         }
 
+        /// <summary>
+        /// Updates user.
+        /// </summary>
+        /// <response code="200">Ok.</response>
+        /// <response code="422">Validation failure.</response>
+        /// <response code="500">Unexpected server error.</response>
         [HttpPut("{id}")]
         public IActionResult Put(int id, [FromBody] UpdateUserDto updateUserDto, [FromServices] IUpdateUserCommand command)
         {
@@ -48,6 +66,12 @@ namespace ASP_Project.Api.Controllers
             return NoContent();
         }
 
+        /// <summary>
+        /// Deletes a user.
+        /// </summary>
+        /// <response code="201">No Content.</response>
+        /// <response code="422">Validation failure.</response>
+        /// <response code="500">Unexpected server error.</response>
         [HttpDelete("{id}")]
         public IActionResult Delete(int id, [FromServices] IDeleteUserCommand command)
         {
