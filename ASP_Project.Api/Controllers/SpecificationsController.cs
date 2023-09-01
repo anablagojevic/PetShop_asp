@@ -22,6 +22,12 @@ namespace ASP_Project.Api.Controllers
             _handler = handler;
         }
 
+        /// <summary>
+        /// Searches a specification by name.
+        /// </summary>
+        /// <response code="200">Ok.</response>
+        /// <response code="422">Validation failure.</response>
+        /// <response code="500">Unexpected server error.</response>
         // GET: api/<SpecificationsController>
         [HttpGet]
         public IActionResult Get([FromQuery] BaseSearch search, [FromServices] IGetSpecificationsQuery query)
@@ -29,6 +35,12 @@ namespace ASP_Project.Api.Controllers
             return Ok(_handler.HandleQuery(query, search));
         }
 
+        /// <summary>
+        /// Searches a specification by ID.
+        /// </summary>
+        /// <response code="200">Ok.</response>
+        /// <response code="422">Validation failure.</response>
+        /// <response code="500">Unexpected server error.</response>
         // GET api/<SpecificationsController>/5
         [HttpGet("{id}")]
         public IActionResult Get(int id, [FromServices] IFindSpecificationQuery query)
@@ -36,6 +48,12 @@ namespace ASP_Project.Api.Controllers
             return Ok(_handler.HandleQuery(query, id));
         }
 
+        /// <summary>
+        /// Creates a new specification.
+        /// </summary>
+        /// <response code="201">No Content.</response>
+        /// <response code="422">Validation failure.</response>
+        /// <response code="500">Unexpected server error.</response>
         //// POST api/<SpecificationsController>
         [HttpPost]
         public IActionResult Post([FromBody] CreateSpecificationDto dto, [FromServices] ICreateSpecificationCommand command)
@@ -44,6 +62,12 @@ namespace ASP_Project.Api.Controllers
             return NoContent();
         }
 
+        /// <summary>
+        /// Deletes specification.
+        /// </summary>
+        /// <response code="201">No content.</response>
+        /// <response code="422">Validation failure.</response>
+        /// <response code="500">Unexpected server error.</response>
         //// DELETE api/<SpecificationsController>/5
         [HttpDelete("{id}")]
         public IActionResult Delete(int id, [FromServices] IDeleteSpecificationCommand command)
